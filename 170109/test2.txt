@@ -8,3 +8,7 @@ Hello world!2
 *****
 Local Repository 에만 commit합니다.
 *****
+
+*****
+서로 다른 파일 수정!
+*****
