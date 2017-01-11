@@ -64,6 +64,7 @@ OS: Operating System의 약자
 ---
 
 ###커널
+- 
 
 ---
 
