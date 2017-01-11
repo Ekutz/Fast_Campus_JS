@@ -124,6 +124,12 @@ OS: Operating System의 약자
 ###덱큐
 ![스택](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/dequeue.png?raw=true)  
 >스택 + 큐
+
+---
+
+###트리
+
+
 ---
 
 ##3. 알고리즘
