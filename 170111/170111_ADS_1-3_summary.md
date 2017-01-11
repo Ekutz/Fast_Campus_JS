@@ -84,10 +84,31 @@ OS: Operating System의 약자
 
 ###연결 리스트
 - 단순 연결 리스트
+ - 삽입과 삭제가 매우 자유롭다
+	- 데이터를 담는 용량 외에도 다음 데이터의 위치를 알려줄 포인터가 필요하다
+	- 특정 주소를 찾기 위해선 처음부터 물어봐야한다
+	![단순 연결 리스트](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/Single_linked_list.png?raw=true)  
+
+		>눈 감고 기차 놀이
+	
 
 - 이중 연결 리스트
+ 	- 앞 데이터의 위치를 알 수 있어서 데이터 간의 이동이 빠르다
+	![이중 연결 리스트](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/Doubly_linked_list.png?raw=true) 
+
+		>장님과 앉은뱅이
 
 - 원형 연결 리스트
+	![원형 연결 리스트](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/Circurlar_linked_list.png?raw=true)  
+	
+	
+	
+모든 리스트는 상황에 맞추어 가장 알맞은 방법을 선택하여 활용한다
+
+---
+
+###스택
+
 
 ---
 
@@ -103,8 +124,6 @@ OS: Operating System의 약자
 **적절한 모양의 블럭**(자료구조)를 이용하여 **요리조리 돌려서**(알고리즘) 게임 클리어!  
 ![테트리스](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/tetris.png?raw=true)  
 >오른쪽은 주커버그 왼쪽은 나다
-
-
 
 
 
