@@ -56,6 +56,8 @@ OS: Operating System의 약자
 		>다다익RAM 이면 쓸 필요 없다
 
 	######파일 관리
+	![파일 관리](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/file_manage.png?raw=true)
+	>H/W vs S/W 싸움에 OS 등 터진다
 
 ---
 
