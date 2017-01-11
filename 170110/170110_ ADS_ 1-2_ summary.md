@@ -1,5 +1,3 @@
-# 170110_ ADS_ 1-2_ summary
-
 ## 1. Git with command
 >macOS는 Unix 기반 명령어를 사용한다  
 >Terminal을 이용하여 명령어를 입력한다
@@ -12,6 +10,8 @@
 - `mkdir '폴더명': 폴더 생성`  
 - `rmdir '폴더명': 폴더 삭제`  
 - `vi '파일명.파일형식': 파일명.파일형식을 vi 편집기로 생성`
+
+---
 
 ###Git 명령어
 - `git --help: git 명령어 모음집`  
@@ -28,6 +28,8 @@
 
 >git 관련 명령어는 모두 git을 어두로 달고 나온다
 
+---
+
 ###vi 명령어
 #####명령 상태
 `:w <- 저장`  
@@ -38,6 +40,8 @@
 #####입력 상태
 `esc <- 명령 상태로 진입`
 
+---
+---
 
 ##2. 컴퓨터
 >간단한 컴퓨터의 기초에 대해 알아본다
@@ -55,6 +59,8 @@
 ![집적회로](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170110/imgs/ic.png?raw=true)  
 일반적으로 우리가 아는 컴퓨터에 장착된 IC(Integrated Circuit)이다. 공장 하나의 크기를 지녔던 진공관 컴퓨터가 손가락 한마디의 칩 안에 들어가게 되었다
 
+---
+
 ###컴퓨터의 구성
 #####하드웨어
 - 입력장치
@@ -68,6 +74,8 @@
 #####소프트웨어
 - 시스템 소프트웨어(OS, Kernel, driver etc...)
 - 응용 소프트웨어
+
+---
 
 ###컴퓨터의 구조
 ![컴구조](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170110/imgs/architecture.png?raw=true)  
@@ -83,6 +91,8 @@
 ![컴구조](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170110/imgs/cache.jpg?raw=true)  
 L로 시작하는 Cache 메모리들을 CPU에 합류시켜 거시적으로는 폰 노이만 구조를 미시적으로는 하버드 구조를 이용하여 최적의 구조를 만들어 냈다
 >우리는 답을 찾을 것이다. 언제나 그랬듯이.
+
+---
 
 ###컴퓨터의 표현 방식
 >01001001 01101100011011110111011001100101
