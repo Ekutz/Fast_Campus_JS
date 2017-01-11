@@ -64,7 +64,9 @@ OS: Operating System의 약자
 ---
 
 ###커널
-- 
+- 운영체제의 핵심 그 자체
+	- 하드웨어와 소프트웨어를 연결하고 보안과 자원 관리, 추상화 등을 제공한다
+	![커널](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/kernel.png?raw=true)
 
 ---
 
