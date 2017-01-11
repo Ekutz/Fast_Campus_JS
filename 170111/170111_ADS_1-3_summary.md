@@ -33,9 +33,9 @@ OS: Operating System의 약자
 - 시스템 자원을 효율적으로 할당, 관리
 
 	######프로세스 관리
-	- 프로세스
+	- 프로세스  
 		![프로세스](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/process_manage.png?raw=true)
-	- 프로세스 주기
+	- 프로세스 주기  
 		![프로세스 주기](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/process_state.jpg?raw=true)
 	- 프로세스 스케쥴링
 	
