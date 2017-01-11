@@ -108,6 +108,13 @@ OS: Operating System의 약자
 ---
 
 ###스택
+![스택](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/stack.png?raw=true)  
+>_Fist in, Last out!_  
+>인터넷 뒤로 가기를 생각하면 빠르다
+
+---
+
+###큐
 
 
 ---
