@@ -34,12 +34,23 @@ OS: Operating System의 약자
 
 	######프로세스 관리
 	- 프로세스
-	- 프로세스 상태
+		![프로세스](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/process_manage.png?raw=true)
+	- 프로세스 주기
+		![프로세스 주기](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/process_state.jpg?raw=true)
 	- 프로세스 스케쥴링
+	
+		|방식|특징|장점|단점|  
+		|:-:|:-:|:-:|:-:|
+		|FCFS|프로세스 생성 순서에 맞추어 처리||앞선 프로세스가 오래 걸리면 뒤쪽은 서비스 불가|
+		|SJF|서비스 시간이 짧은 순서대로 처리|빠른 속도|오래 걸리는 프로세스는 계속해서 밀려남|
+		|Round Robin Scheduling|일정 시간 안에 처리하지 못하면 순서를 뒤로 미루는 처리법|합리적인 처리 방식으로 부하가 적음|기준 시간이 너무 짧으면 배보다 배꼽이 커짐|
+		|Priority Based Scheduling|우선 순위를 정하여 처리|중요한 일부터 처리가 가능|낮은 순위의 프로세스는 서비스 불가|
+		|Multi Queue Shceduling|프로세스를 분류하여 각 분류마다 다른 방식 적용|가장 빠르고 정확한 서비스 방식|다른 큐로 이동이 불가능함|
+		
 	
 	######주기억장치 관리
 	- 단순 관리
-		>사용하지 않는 메모리 제거
+		- 사용하지 않는 메모리 제거
 		
 	- 가상 메모리
 		>다다익RAM 이면 쓸 필요 없다
