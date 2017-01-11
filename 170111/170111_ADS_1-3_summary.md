@@ -116,7 +116,7 @@ OS: Operating System의 약자
 
 ###큐
 ![스택](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/queue.png?raw=true)  
->_First in, First out!_
+>_First in, First out!_  
 >은행 창구를 생각하면 빠르다
 
 ---
@@ -128,6 +128,13 @@ OS: Operating System의 약자
 ---
 
 ###트리
+![스택](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/tree.png?raw=true)  
+>직박구리 - 국산, 일본, 서양 - 직캠, 몰카...  
+>검색이 용이해진다
+
+---
+
+###그래프
 
 
 ---
