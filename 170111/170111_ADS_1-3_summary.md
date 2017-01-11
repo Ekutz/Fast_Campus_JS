@@ -109,14 +109,21 @@ OS: Operating System의 약자
 
 ###스택
 ![스택](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/stack.png?raw=true)  
->_Fist in, Last out!_  
+>_First in, Last out!_  
 >인터넷 뒤로 가기를 생각하면 빠르다
 
 ---
 
 ###큐
+![스택](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/queue.png?raw=true)  
+>_First in, First out!_
+>은행 창구를 생각하면 빠르다
 
+---
 
+###덱큐
+![스택](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170111/imgs/dequeue.png?raw=true)  
+>스택 + 큐
 ---
 
 ##3. 알고리즘
