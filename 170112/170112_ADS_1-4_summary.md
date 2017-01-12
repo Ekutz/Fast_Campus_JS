@@ -113,16 +113,17 @@ HTML(Hyper Text Markup Language)로 된 문서를 주고 받을 수 있다
 
 ---
 
-###HOST
+###Host
 - 네트워크에 연결된 장치
 
 #####IP
 >Internet Protocol
 
 - 장치들이 서로를 인식하고 통신을 하기 위해서 사용하는 번호
+- 접속 때마다 유동 IP를 새로 받는다
 
 #####도메인
->사람이 알기 쉽게 호스트 이름을 문자로 표기한 것
+- 사람이 알기 쉽게 호스트 이름을 문자로 표기한 것
 
 `8.8.8.8 <-> www.google.com`
 
@@ -131,6 +132,22 @@ HTML(Hyper Text Markup Language)로 된 문서를 주고 받을 수 있다
 
 - 도메인 이름을 네트워크 주소로 바꾸거나 반대의 변환을 수행
 
+![dns](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/dns.png?raw=true)  
+DNS가 주소를 해석하여 클라이언트에게 보여주는 과정이다
+
 #####MAC 주소
+>Media Access Control Address
+
+- 네트워크 어댑터에 부착된 식별자
+- 바뀌지 않는 물리적 주소
+
 
 ---
+
+###Port
+- 가상의 논리적 통신 연결단
+- 서로 다른 목적의 데이터들을 알맞은 프로세스로 보내기 위한 가상 ID
+- 프로토콜 마다 지정된 범위의 포트가 있다
+
+---
+
