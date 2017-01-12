@@ -156,7 +156,7 @@ DNS가 주소를 해석하여 클라이언트에게 보여주는 과정이다
 
 ![osi](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/osi.png?raw=true)  
 
-![osi](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/osi2.png?raw=true)  
+![osi2](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/osi2.png?raw=true)  
 
 ---
 
@@ -168,6 +168,8 @@ DNS가 주소를 해석하여 클라이언트에게 보여주는 과정이다
 	- DES, AES, SEED 등
 
 >공인인증서가 SEED 형태의 대칭 암호화를 하고 있다
+>![osi2](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/shit.png?raw=true)  
+>충격과 공포
 
 ###비대칭(=공개)키
 - 암호화키는 공개하지만 복호화 키는 따로 존재하는 알고리즘
