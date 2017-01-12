@@ -156,3 +156,21 @@ DNS가 주소를 해석하여 클라이언트에게 보여주는 과정이다
 
 ![osi](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/osi.png?raw=true)  
 
+![osi](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/osi2.png?raw=true)  
+
+---
+
+##3. 암호화
+>내 개인정보는 중국의 공공재
+
+###대칭키
+- 암호화와 복호화에 같은 암호 방식을 쓰는 알고리즘
+	- DES, AES, SEED 등
+
+>공인인증서가 SEED 형태의 대칭 암호화를 하고 있다
+
+###비대칭(=공개)키
+- 암호화키는 공개하지만 복호화 키는 따로 존재하는 알고리즘
+	- RSA 등
+
+###해쉬키
