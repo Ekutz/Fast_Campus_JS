@@ -151,3 +151,8 @@ DNS가 주소를 해석하여 클라이언트에게 보여주는 과정이다
 
 ---
 
+###OSI 7계층
+>잠시 토하고 오겠습니다
+
+![osi](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/osi.png?raw=true)  
+
