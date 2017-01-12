@@ -167,8 +167,8 @@ DNS가 주소를 해석하여 클라이언트에게 보여주는 과정이다
 - 암호화와 복호화에 같은 암호 방식을 쓰는 알고리즘
 	- DES, AES, SEED 등
 
->공인인증서가 SEED 형태의 대칭 암호화를 하고 있다
->![osi2](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/shit.png?raw=true)  
+>공인인증서가 SEED 형태의 대칭 암호화 형식을 취하고 있다
+>![shit](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170112/imgs/shit.png?raw=true)  
 >충격과 공포
 
 ###비대칭(=공개)키
@@ -176,3 +176,6 @@ DNS가 주소를 해석하여 클라이언트에게 보여주는 과정이다
 	- RSA 등
 
 ###해쉬키
+- 해쉬맵 테이블을 가지고 암호화 하는 방식
+	- SHA, MD5
+		- 복호화가 안되는 걸로 알려져 있지만 해쉬 테이블을 알면 금새 복구할 수 있다
