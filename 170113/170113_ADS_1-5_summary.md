@@ -163,3 +163,17 @@
 #####Framework
 - 기본 설계의 기반을 모아놓고 구현하고자 하는 기능을 추가, 수정할 수 있도록 담아놓은 집합체
 
+#####디자인 패턴
+- 과거 개발 과정에서 발견된 설계의 노하루를 재사용하기 좋은 형태로 묶어서 정리한 것
+
+#####IDE
+>Integrated Development Environment
+
+- 통합 개발 환경
+	- Android Studio, XCode, Visual Studio...
+
+#####SDK
+>Software Development Kit
+
+- 소프트웨어 개발에 필요한 도구의 모음
+	- IDE + Framework + Tools...
