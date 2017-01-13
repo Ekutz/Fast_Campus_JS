@@ -21,14 +21,14 @@
 
 #####프로토타이핑 모델
 
-![waterfall](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/proto.jpg?raw=true)
+![proto](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/proto.jpg?raw=true)
 
 - 데모 버젼을 만들어 지속적으로 수정해 나간다
 - 개발 비용이 많이 든다
 - 커뮤니케이션으로 인한 일정 소모가 늘어난다
 
 #####나선형 모델
-![waterfall](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/spiral.png?raw=true)
+![spiral](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/spiral.png?raw=true)
 
 - 개발 퀄리티가 증가한다
 - 전체 개발 시간이 늘어난다
@@ -83,12 +83,39 @@
 ##2. 프로그래밍 언어
 ![언어](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/language.png?raw=true) <del>어우 개 많네...</del>
 
+###언어의 역사
+>스압
+
+![history](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/history.jpg?raw=true)
+
+시대에 요구에 따라 과거에 발명된 언어가 뒤늦게 각광받는 경우가 많다.
+
+---
+
+###언어의 종류
+
+#####컴파일 언어: 실행파일을 만든 후, 배포하기 전에, 기계어로 번역되는 언어
+- C, C++, Go...
+	- 장점 : 기계어로 번역이 완료되어 있어 실행 속도가 빠르다
+	- 단점 : 수정을 위해 전체 소스를 재번역해야하는 번거로움이 있다<br/>하드웨어에 대한 의존도가 높아 운영체제에 따라 다르게 제작해야한다
+
+#####바이트코드 언어: 가상머신이 읽을 수 있는 형태로 변환한 뒤 가상머신에 의존하여 실행
+- Java, C#...
+	- 장점 : 하드웨어 의존도가 낮고, 실행 속도도 빠르다
+	- 단점 : 최적화가 어렵다<br/>가상머신도 메모리를 차지한다
+
+#####인터프리터 언어: 실행과 동시에 동시 번역하여 사용하는 언어
+- BASIC, JavaScript, Python, Ruby...
+	- 장점 : 유지보수가 매우 편리하다
+	- 단점 : 실행 속도가 느리다
+
+---
+
+###객체지향 프로그래밍
+>프로그래밍을 명령어의 목록으로 보는 시각에서 벗어나 "객체"들의 모임으로 보는 것
+
+#####클래스: 객체를 만들기 위해 공통된 기능을 설명해 놓은 것 <del>붕어빵 틀</del>
 
 
-###소제목
-- `1번`
+#####객체: 실현된 하나의 클래스 <del>붕어빵</del>
 
-###소제목
-#####분기
-
-#####분기
