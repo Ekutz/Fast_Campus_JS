@@ -16,10 +16,13 @@
 
 소프트웨어를 어떻게 개발할 것인가에 대한 전체적인 흐름
 
-#####폭포수 모델
+#####폭포수 모델  
+![waterfall](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/waterfall.png?raw=true)
 
+- 체계적인 순서를 가진다는 장점이 있다
+- 앞 단계가 진행되어야 뒤로 갈 수 있다는 단점이 있다
 
-
+#####
 
 ###소제목
 - `1번`
