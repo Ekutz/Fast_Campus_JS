@@ -81,6 +81,7 @@
 ---
 
 ##2. 프로그래밍 언어
+![언어](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/language.png?raw=true) <del>어우 개 많네...</del>
 
 
 
