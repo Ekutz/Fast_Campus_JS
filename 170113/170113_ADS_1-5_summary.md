@@ -118,5 +118,30 @@
 
 #####객체: 실현된 하나의 클래스 <del>붕어빵</del>
 
->![클래스](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/class.jpg?raw=true)
+>![클래스](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/class.jpg?raw=true)  
+>![객체](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/object.jpg?raw=true)
 
+<del>수많은 객체가 죽어나간다</del>
+
+---
+
+###각종 용어 정
+
+#####개발자
+><del>밤을 세는 자</del>
+
+- 프로젝트를 만드는데 기획부터 제작까지 참여하는 모든 사람
+
+#####Server / Client
+- 상대적인 개념으로 정보를 주면 서버, 받으면 클라이언트
+
+#####Front-end / Back-end
+>재주는 백이 부리고 돈은 프론트<del>도 못 받는다</del>...
+
+- 상대적인 개념으로 사용자와 직접 상호작용하면 Front-end, 아닐 시 Back-end
+
+#####Thread
+![스레드](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/thread.png?raw=true)
+- 프로세스 내에서 작업이 실행되는 흐름의 단위
+
+#####
