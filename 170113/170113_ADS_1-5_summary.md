@@ -22,6 +22,14 @@
 - 체계적인 순서를 가진다는 장점이 있다
 - 앞 단계가 진행되어야 뒤로 갈 수 있다는 단점이 있다
 
+#####프로토타이핑 모델
+
+![waterfall](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/proto.jpg?raw=true)
+
+- 데모 버젼을 만들어 지속적으로 수정해 나간다
+- 개발 비용이 많이 든다
+- 
+
 #####
 
 ###소제목
