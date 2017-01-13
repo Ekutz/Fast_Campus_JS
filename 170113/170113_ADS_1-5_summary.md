@@ -118,5 +118,5 @@
 
 #####객체: 실현된 하나의 클래스 <del>붕어빵</del>
 
->![클래스와객체의관계](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/class.jpg?raw=true)
+>![클래스](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170113/imgs/class.jpg?raw=true)
 
