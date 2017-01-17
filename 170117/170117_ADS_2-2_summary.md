@@ -21,12 +21,14 @@ if(조건1) {
 } else {
 	// TODO 어느 조건에도 해당되지 않을 때 해야할 동작
 }
-
+```
+```
 ex)
 if(i > 10) {
 	System.out.print("a : " + a);
 }
-
+```
+```
 tip)
 if(i > 10 || i<=100) {
 	System.out.print("a : " + a);
@@ -53,7 +55,8 @@ switch 변수 {
 	default :
 		// TODO 어떤 비교값과도 같지 않을 때 해야할 동작
 }
-
+```
+```
 ex)
 switch i {
 	case 1 :
@@ -66,7 +69,8 @@ switch i {
 		System.out.print("1도 2도 아니다");
 		break;
 }
-
+```
+```
 tip)
 매 case마다 break;를 써주지 않으면 해당 case 이하의 모든 case를
 전부 실행시킨다. 의도한 것이 아니라면 꼭 break;를 써주자
@@ -83,13 +87,15 @@ usage)
 for(초기화;만족조건;증감) {
 	// TODO 해야할 동작
 }
-
+```
+```
 ex)
 int i=0;
 for(i=0;i<100;i++) {
 	System.out.print("i : " + i);
 }
-
+```
+```
 tip)
 for(;;;) {
 	// TODO 해야할 동작
@@ -107,14 +113,16 @@ usage)
 while(조건) {
 	// TODO 해야할 동작
 }
-
+```
+```
 ex)
 int i=0;
 while(i<100) {
 	System.out.print("i : " + i);
 	i++;
 }
-
+```
+```
 tip)
 while(true) {
 	// TODO 해야할 동작
