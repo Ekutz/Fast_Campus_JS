@@ -105,6 +105,28 @@ for(;;;) {
 
 ---
 
+#####for each문
+>for문의 진화형, 기존 배열 전체를 뽑아다가 써야할 때
+
+```
+usage)
+for(자료형 이름 : 배열) {
+	// TODO 해야할 동작
+}
+```
+```
+ex)
+for(Object item : arrayList) {
+	System.out.println(item);
+}
+```
+```
+tip)
+최근 들어 계속 진화하고 있는 문법. 잘 익혀두면 편할 것 같다.
+```
+
+---
+
 #####while문
 >for문을 세로로 분리해 놓은 문법 <del>대체 왜...?</del>
 
