@@ -59,7 +59,8 @@ public class 클래스명 extends 부모클래스명 {
 POJO
 >Plain Old Java Object
 
-
+속성과 getter, setter 로만 이루어진 객체지향의 정의를 가장 잘 따른 java 문서
+![pojo](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170119/imgs/pojo.png?raw=true)
 
 ---
 Getter 와 Setter 만들기
@@ -73,6 +74,3 @@ Getter 와 Setter 만들기
 >내가 이거 있는거 미리 알았으면 이렇게 머리 쥐어뜯지도 않았을 텐데
 
 ---
-
-
-##2. BBS 만들기
