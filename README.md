@@ -17,6 +17,9 @@
 >4. [클래스](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170119/README.md)
 >5. [예외처리, NIO](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170120/README.md)
 
-
 --------
+###3주차
+>1. [Android Gradle 세팅](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/README.md)
+
+
 --------
