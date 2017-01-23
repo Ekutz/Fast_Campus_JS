@@ -13,21 +13,40 @@
 >사실 Oracle이 고소미를 시전하지 않았으면 아직도 Dalvik 가지고 낑낑댔겠지
 
 ---
+##Android Compile&Build
 ###1. Compile
 - 리눅스 상에서의 Compile 및 Build 과정
-
+![linux_compile](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/imgs/Linux_Compile.png?raw=true)
 - 안드로이드 상의 컴파일
+![android_compile](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/imgs/Android_Compile.png?raw=true)
+
+>리눅스는 컴파일 후 링크를 해주는 것을 포함하여 빌드라고 부르지만 안드로이드는 빌드 과정이 따로 존재한다
+
+---
 
 ###2. Build
 컴파일이 끝난 파일을 설치파일까지 만들어 주는 것
+![android_build](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/imgs/Android_Build.png?raw=true)
+
+---
 
 ###3. Build Tools
-Maven <-> Gradle
-이 둘만 알아도 됨
+|Make|Maven|Gradle|
+|:-:|:-:|:-:|:-:|
+|리눅스 빌드(플랫폼 의존성이 있다)|빌드 도구로 시작하였으나 현재는 의존성 관리툴로 사용된다|구글의 전폭적인 지원으로 가장 큰 파이를 차지하게 된 빌드 툴|
+
+---
 
 ###4. Gradle
-#####1. Gradle의 특징
-#####2. Gradle의 장점
+- 비설치형 빌드툴
+	- gradlew 명령어로 자동 다운로드 후 실행
+- 프로젝트 구조화
+	- 구조화된 프로젝트 빌드가 용이하고, 의존관계 정립에 편리하다
+- 하위 버전에 대한 호환성 유지
+	- 버전 체크를 우선시 하여 호환성을 유지한다
+
+---
+
 
 
 
