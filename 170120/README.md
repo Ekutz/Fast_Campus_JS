@@ -1,5 +1,3 @@
-#2nd Week, Weak point
-
 #try catch
 
 - JDK 1.7 이상 버전에서의 예외처리
