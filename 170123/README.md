@@ -46,3 +46,8 @@ Android Code Scanning Tool
 #####lint 모든 flavor 실행
 ./gradlew lint
 
+###Android Studio with Git
+Remote Repository 만들때 README.md 추가 금지
+
+###travis 연동
+root 밑에 .travis.yml 파일 생성
