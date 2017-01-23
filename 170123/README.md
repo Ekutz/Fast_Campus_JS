@@ -76,6 +76,11 @@ Terminal Console 에서
 >add, commit & push 는 터미널에서 진행하는게 오히려 편하다  
 >Remote Repository 만들때 README.md 추가 금지
 
+---
+
 ###travis 연동
 root 밑에 .travis.yml 파일 생성
 
+![travis](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/imgs/travis.png?raw=true)
+
+- 자동완성 기능도 없고 문법 검사 기능도 없다 그러나 한 글자, 한 바이트 띄어쓰기만 틀려도 아예 빌드가 실패할 수 있으니 주의하여야 한다 <del>문법 나치</del>
