@@ -45,22 +45,17 @@
 - 하위 버전에 대한 호환성 유지
 	- 버전 체크를 우선시 하여 호환성을 유지한다
 
+![gradle_config](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/imgs/gradle_config.png?raw=true)
+
+
 ---
 
-
-
-
-###호오라
-findViewByID()는 View 를 리턴 하므로
-
-(타입)find... 로 써서 캐스팅 해준다.
-
-
-###호오라
+###Tip
 터미널 명령어로 모든 flavor 빌드하기
+Terminal Console 에서
 
-윈 - gradlew build
-맥 - ./gradlew build
+윈도우 - $ gradlew build  
+맥 OS - $ ./gradlew build
 
 ### Lint
 Android Code Scanning Tool
