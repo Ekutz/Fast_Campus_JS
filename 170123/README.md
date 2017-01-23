@@ -57,17 +57,25 @@ Terminal Console 에서
 윈도우 - $ gradlew build  
 맥 OS - $ ./gradlew build
 
-### Lint
-Android Code Scanning Tool
-
-
-##### lint Severity(심각도)
-
-#####lint 모든 flavor 실행
-./gradlew lint
+---
 
 ###Android Studio with Git
-Remote Repository 만들때 README.md 추가 금지
+![vcs1](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/imgs/vcs1.png?raw=true)
+![vcs2](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/imgs/vcs2.png?raw=true)
+
+- 프로젝트를 Git으로 관리할 준비를 한다
+
+![vcs3](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/imgs/vcs3.png?raw=true)
+
+- add를 하고
+
+![vcs4](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/imgs/vcs4.png?raw=true)
+
+- commit & push
+
+>add, commit & push 는 터미널에서 진행하는게 오히려 편하다  
+>Remote Repository 만들때 README.md 추가 금지
 
 ###travis 연동
 root 밑에 .travis.yml 파일 생성
+
