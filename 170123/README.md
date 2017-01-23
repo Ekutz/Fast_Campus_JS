@@ -4,7 +4,13 @@
 - 과거에는 C/C++ 로 되어있는 NDK를 쓰도록 권고했으나 지금은 충분히 빨라져서 NDK 안 쓰도록 권고함
 
 ---
-- Dalvk vs ART
+## Dalvik vs ART
+||Dalvik|ART|
+|:-:|:-:|:-:|
+|Compile 방식|JIT|AOT + JIT|
+|차이점|실행할 때 마다 컴파일|(최초 설치 컴파일 하는 AOT) + JIT|
+
+>사실 Oracle이 고소미를 시전하지 않았으면 아직도 Dalvik 가지고 낑낑댔겠지
 
 ---
 ###1. Compile
