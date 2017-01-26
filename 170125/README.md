@@ -21,7 +21,20 @@
 
 ---
 
+###layout_size
+#####wrap_Content
+![wrap_content](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/size_wrap_content.png?raw=true)
+- 위젯 내부의 컨텐츠를 감쌀 만큼만 공간을 차지한다
 
+#####fixed
+![wrap_content](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/size_fixed.png?raw=true)
+- 고정된 값으로 공간을 차지한다
+
+#####any size
+![wrap_content](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/size_any_size.png?raw=true)
+- constraint를 만족시키는 선에서 최대한 공간을 차지한다
+
+---
 
 ##OnCheckedListener
 > Compound.OnCheckedListener
@@ -31,20 +44,88 @@
 	- CheckBox
 	- RadioButton
 
-// TODO 구정을 통해 사용 예 정리
+```
+CompoundButton.OnCheckedChangeListener toggleListener = new CompoundButton.OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+            Toast.makeText(WidgetActivity.this, "토글 상태 : "+b, Toast.LENGTH_SHORT).show();
+        }
+    };
+```
+```
+implements CompoundButton.OnCheckedChangeListener
 
-##ToggleButton
 
-##CheckBox
+checkBox1.setOnCheckedChangeListener(this);
+checkBox2.setOnCheckedChangeListener(this);
+checkBox3.setOnCheckedChangeListener(this);
 
-##RadioGroup
 
-###RadioButton
+@Override
+    public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+        if(b==true) {
+            String fruit = "";
+            switch (compoundButton.getId()) {
+                case R.id.cBox1:
+                    fruit = "Apple";
+                    break;
+                case R.id.cBox2:
+                    fruit = "Banana";
+                    break;
+                case R.id.cBox3:
+                    fruit = "Cherry";
+                    break;
+            }
+            Toast.makeText(WidgetActivity.this, "I Like " + fruit, Toast.LENGTH_SHORT).show();
+        }
+    }
 
-##Spinner
 
-##SeekBar
+```
+```
+radioG.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int id) {
+                String name = "";
+                switch(id) {
+                    case R.id.rdBtn1 :
+                        name = "Anaconda";
+                        break;
+                    case R.id.rdBtn2 :
+                        name = "Bear";
+                        break;
+                    case R.id.rdBtn3 :
+                        name = "Cat";
+                        break;
+                }
+                Toast.makeText(WidgetActivity.this, name+" 버튼 선택됨", Toast.LENGTH_SHORT).show();
+            }
+        });
+```
+---
+
+##Widgets
+> 다양한 위젯과 그 사용 예를 알아보자
+
+###ToggleButton
+
+
+
+###CheckBox
+
+###RadioGroup
+
+#####RadioButton
+
+###Spinner
 
 ###SeekBar
 
-###SeekBar(Discrete)
+#####SeekBar
+
+#####SeekBar(Discrete)
+
+
+---
+사진 출처  
+[커니의 안드로이드 이야기](http://kunny.github.io/)
