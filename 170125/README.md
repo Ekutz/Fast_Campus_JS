@@ -36,8 +36,8 @@
 
 ---
 
-##OnCheckedListener
-> Compound.OnCheckedListener
+##OnCheckedChangeListener
+> Compound.OnCheckedChangeListener
 
 - 뷰의 상태가 boolean으로 표현 가능할 때 사용하는 리스너
 	- ToggleButton
@@ -46,11 +46,11 @@
 
 ```
 CompoundButton.OnCheckedChangeListener toggleListener = new CompoundButton.OnCheckedChangeListener() {
-        @Override
-        public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-            Toast.makeText(WidgetActivity.this, "토글 상태 : "+b, Toast.LENGTH_SHORT).show();
-        }
-    };
+    @Override
+    public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+        Toast.makeText(WidgetActivity.this, "토글 상태 : "+b, Toast.LENGTH_SHORT).show();
+    }
+};
 ```
 ```
 implements CompoundButton.OnCheckedChangeListener
@@ -62,45 +62,45 @@ checkBox3.setOnCheckedChangeListener(this);
 
 
 @Override
-    public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-        if(b==true) {
-            String fruit = "";
-            switch (compoundButton.getId()) {
-                case R.id.cBox1:
-                    fruit = "Apple";
-                    break;
-                case R.id.cBox2:
-                    fruit = "Banana";
-                    break;
-                case R.id.cBox3:
-                    fruit = "Cherry";
-                    break;
-            }
-            Toast.makeText(WidgetActivity.this, "I Like " + fruit, Toast.LENGTH_SHORT).show();
+public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+    if(b==true) {
+        String fruit = "";
+        switch (compoundButton.getId()) {
+            case R.id.cBox1:
+                fruit = "Apple";
+                break;
+            case R.id.cBox2:
+                fruit = "Banana";
+                break;
+            case R.id.cBox3:
+                fruit = "Cherry";
+                break;
         }
+        Toast.makeText(WidgetActivity.this, "I Like " + fruit, Toast.LENGTH_SHORT).show();
     }
+}
 
 
 ```
 ```
 radioG.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int id) {
-                String name = "";
-                switch(id) {
-                    case R.id.rdBtn1 :
-                        name = "Anaconda";
-                        break;
-                    case R.id.rdBtn2 :
-                        name = "Bear";
-                        break;
-                    case R.id.rdBtn3 :
-                        name = "Cat";
-                        break;
-                }
-                Toast.makeText(WidgetActivity.this, name+" 버튼 선택됨", Toast.LENGTH_SHORT).show();
-            }
-        });
+    @Override
+    public void onCheckedChanged(RadioGroup radioGroup, int id) {
+        String name = "";
+        switch(id) {
+            case R.id.rdBtn1 :
+                name = "Anaconda";
+                break;
+            case R.id.rdBtn2 :
+                name = "Bear";
+                break;
+            case R.id.rdBtn3 :
+                name = "Cat";
+                break;
+        }
+        Toast.makeText(WidgetActivity.this, name+" 버튼 선택됨", Toast.LENGTH_SHORT).show();
+    }
+});
 ```
 ---
 
@@ -108,23 +108,56 @@ radioG.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 > 다양한 위젯과 그 사용 예를 알아보자
 
 ###ToggleButton
-
-
+![toggleButton](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/toggleBtn.png?raw=true)  
+버튼의 On/Off를 판단하고 보여주는 위젯
 
 ###CheckBox
+![checkBox](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/checkBox.png?raw=true)  
+체크 여부를 판단하고 보여주는 위젯
 
 ###RadioGroup
-
+- 1개 세트의 라디오 버튼을 감싸는 컨테이너
 #####RadioButton
+![radioButton](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/radio.png?raw=true)  
+다중택일이며 선택 여부를 판단하고 보여주는 위젯
 
 ###Spinner
+![spinnner](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/spinner.png?raw=true)  
+한 카테고리의 데이터 묶음을 고를 수 있도록 제공해 주는 위젯
+
+```
+ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, data); // Context, 스피너에서 쓸 레이아웃, 데이터
+sp.setAdapter(adapter);
+sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+        Toast.makeText(WidgetActivity.this, "선택된 년도 : "+ data.get(i), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+
+    }
+});
+```
 
 ###SeekBar
+- 데이터 값을 0~100으로 조절할 수 있게 해주는 위젯
 
 #####SeekBar
+![seekBar](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/seekbar.png?raw=true) 
 
 #####SeekBar(Discrete)
+![seekBarD](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/seekbarD.png?raw=true) 
 
+```
+seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+    @Override
+    public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+        seekBar_TextView.setText(i+"%");
+    }
+}
+```
 
 ---
 사진 출처  
