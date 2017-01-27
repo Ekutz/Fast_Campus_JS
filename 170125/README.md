@@ -162,8 +162,19 @@ seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 ---
 
 ##setVisibility()
-액티비티나 위젯의 
+액티비티나 위젯의 보여지는 것과 존재의 여부를 조절하는 함수
 
+###visible
+공간을 차지하고 보여지는 방식 / 기본값이다  
+![visibel](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/visible.png?raw=true) 
+
+###invisible
+공간은 차지하지만 보이지 않는 방식  
+![invisible](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/invisible.png?raw=true) 
+
+###gone
+보이지도 않고 공간도 차지하지 않는 방식  
+![gone](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/imgs/gone.png?raw=true) 
 
 ---
 
