@@ -20,6 +20,13 @@
 --------
 ###3주차
 >1. [Android Gradle 세팅](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170123/README.md)
-
+>2. [액티비티 호출, 그리드 레이아웃](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170124/README.md)
+>3. [Constraint Layout, Widgets](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170125/README.md)
+>4. [인텐트, 액티비티, 로그](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170126/README.md)
 
 --------
+
+###4주차
+
+
+---
