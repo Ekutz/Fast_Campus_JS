@@ -160,5 +160,12 @@ seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 ```
 
 ---
+
+##setVisibility()
+액티비티나 위젯의 
+
+
+---
+
 사진 출처  
 [커니의 안드로이드 이야기](http://kunny.github.io/)
