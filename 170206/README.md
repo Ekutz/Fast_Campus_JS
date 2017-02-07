@@ -3,7 +3,7 @@
 
 ### 기획 순서
 1. activity_main에 FrameLayout을 배치한다
-2. New -> Fragment -> Fragment(Basic)
+2. New -> Fragment -> Fragment(Blank)
 3. activity_fragment를 커스터마이징한다
 4. MainActivity에서 FragmentManager, FragmentTransaction을 선언하고 add, commit하여 FrameLayout에 Fragment를 붙인다
 
