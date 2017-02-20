@@ -45,7 +45,7 @@
 ---
 
 ###6주차
->1. [TabLayout & ViewPager](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170213/README.md)
+>1. [TabLayout & ViewPager](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170213/README.md)  
 > ex) [MyUtility 예제](https://github.com/Ekutz/170214_MyUtility)
 >2. [Database & ORM Lite](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170215/README.md)  
 > ex) [ORM Lite를 이용한 Memo 예제](https://github.com/Ekutz/170216_Memo)
