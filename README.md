@@ -32,7 +32,11 @@
 >2. [Runtime Permission](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170201/README.md)
 >3. [뮤직 플레이어 - 1](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170202_MusicPlayer_1/README.md)
 >4. [뮤직 플레이어 - 2](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170203_MusicPlayer_2/README.md)
+>5. [Camera](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170210/README.md)
 
 ---
 
 ###5주차
+>1. [TabLayout & ViewPager](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170213/README.md)
+>2. [Google Map in Fragment](https://github.com/Ekutz/Fast_Campus_JS/tree/master/170214)
+>3. [ORM Lite]()
