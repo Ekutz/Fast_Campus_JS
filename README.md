@@ -32,17 +32,20 @@
 >2. [Runtime Permission](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170201/README.md)
 >3. [뮤직 플레이어 - 1](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170202_MusicPlayer_1/README.md)
 >4. [뮤직 플레이어 - 2](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170203_MusicPlayer_2/README.md)
->5. [Camera](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170210/README.md)
 
 ---
 
 ###5주차
->1. [TabLayout & ViewPager](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170213/README.md)
->2. [Google Map in Fragment](https://github.com/Ekutz/Fast_Campus_JS/tree/master/170214/README.md)  
-> ex) [MyUtility 예제](https://github.com/Ekutz/170214_MyUtility)
->3. [Database & ORM Lite](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170215/README.md)  
-> ex) [ORM Lite를 이용한 Memo 예제](https://github.com/Ekutz/170216_Memo)
+>1. [Fragment](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170206/README.md)
+>2. [Google Map in Fragment](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170207/README.md)
+>3. [SOLID](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170208/README.md)
+>4. [Design Pattern](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170209/README.md)
+>5. [Camera](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170210/README.md)
 
 ---
 
 ###6주차
+>1. [TabLayout & ViewPager](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170213/README.md)
+> ex) [MyUtility 예제](https://github.com/Ekutz/170214_MyUtility)
+>2. [Database & ORM Lite](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170215/README.md)  
+> ex) [ORM Lite를 이용한 Memo 예제](https://github.com/Ekutz/170216_Memo)
