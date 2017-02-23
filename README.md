@@ -54,3 +54,6 @@
 
 ###7주차
 >1. [Lambda](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170220/README.md)
+>2. [Custom Widget / View](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170221/README.md)  
+>ex) [PushPush 게임 만들기](https://github.com/Ekutz/170221_PushPush)  
+>3. 
