@@ -1,6 +1,8 @@
 ## Thread
 > 동시에 일을 진행할 때 만들어 쓴다
 
+![thread](https://github.com/Ekutz/Fast_Campus_JS/blob/master/170222/imgs/thread.png?raw=true)
+
 ### 기획 순서
 1. Thread를 상속받은 Class를 만든다
 2. run을 Override한다
